@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Belajar Flex Box</title>
+        <style>
+            .wadah_flex {
+                display: flex;
+                background-color: #818181;
+                flex-flow: row wrap;
+                justify-content: center;
+            }
+            .wadah_flex > div {
+                background-color: #f9f9f9;
+                margin: 10px;
+                padding: 15px;
+                font-size: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wadah_flex">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+        </div>
+        <p>Kesimpulan skenario 1 adalah : terdapat warna abu-abu dalam class wadah_flex</p>
+        <p>Kesimpulan skenario 2 adalah : tanda panah (>) diantara .wadah_flex dan div digunakan
+            untuk menargetkan hanya elemen div saja yang berada di dalam .wadah_flex.</p>
+        <p>Kesimpulan skenario 3 adalah : penambahan 12 div dan kode flex-direction: column membuat 
+            elemen didalam class tersebut menjadi satu kolom dari atas ke bawah sebanyak 12 buah</p>
+        <p>Kesimpulan skenario 4 adalah : kode flex-wrap akan membuat elemen yang ada pada class
+            wadah_flex sejajar dalam satu baris</p>
+        <p>Kesimpulan skenario 5 adalah : hasilnya merupakan gabungan dari kode flex-direction dan flex-wrap</p>
+        <p>Kesimpulan skenario 6 adalah : dengan menggunakan kode justify-content: center pada class 
+            wadah_flex, maka hasilnya elemen pada class tersebut akan berada ditengah</p>
+    </body>
+</html>
